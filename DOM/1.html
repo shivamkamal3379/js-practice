@@ -5,21 +5,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DOM Prep</title>
 </head>
-<body>
-    <div class="bg-black">
-        <h1 class="heading"> DOM is called Document Object Model </h1>
+<body  class="bg-black" >
+    <div>
+        <h1  id = "title" class="heading"> DOM is called Document Object Model </h1>
         <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id eum delectus esse unde similique culpa. </p>
         <h2>Lorem ipsum dolor sit.</h2>
-        <h2>Lorem ipsum dolor sit.</h2>
+       <h2>Lorem ipsum dolor sit.</h2>
         <p>Lorem ipsum dolor sit amet.</p>
         <input type="password" name="" id="">
-
+  
+        
         <ul>
             <li class="list-item">one</li>
             <li class="list-item">two</li>
             <li class="list-item">three</li>
             <li class="list-item">four</li>
-        </ul>
+        </ul> 
     </div>
 </body>
 </html>
+
+
+
+<!-- 
+document.getElementById('title')
+<h1 id=​"title" class=​"heading">​ DOM is called Document Object Model ​</h1>​
+document.getElementById('title').id
+'title'
+document.getElementById('title').class
+undefined
+document.getElementById('title').className
+'heading'
+ we cant fetch the command get atribute  using taht to teh console on the other hand we can edit that 
+  byt in DOM we can overwrite the attributes by 
+  document.getElementById('title').setAttribute('class' , 'test') 
+   this above command says that we  are changing teh attribute class to test 
+   
+-->
+<!-- 
+
+
+
+
+using the style tag in teh console  -->
+
+
+
+<!-- 
+
+title.style.backgroundColor = 'red '
+'red '
+title.style.padding = '15px'
+'15px'
+title.style.borderRadius = "15px"
+'15px'
+title.textContent
+' DOM is called Document Object Model '
+title.innerHTML
+' DOM is called Document Object Model '
+title.innerText
+'DOM is called Document Object Model' -->
+ major diff b/w inner text and text content is that 
+by using text content it diplays thae text along with the properties that are merged with the  styling  text that are applied 
+
+
+by using innerhtml that gives back the whole html tags that are written in html 
+whereas textcontent and the inner text that dont support the  tags of html <br>
+
+
+
+
+
+<!-- document.querySelector('h2') using teh tags as a parameter
+<h2>​Lorem ipsum dolor sit.​</h2>​
+document.querySelector('#title') using id as a oparameter of query selector 
+<h1 id=​"title" class=​"heading">​ DOM is called Document Object Model ​</h1>​
+document.querySelector('.heading') using classname for a parameter  of query selector 
+<h1 id=​"title" class=​"heading">​ DOM is called Document Object Model ​</h1>​ -->
