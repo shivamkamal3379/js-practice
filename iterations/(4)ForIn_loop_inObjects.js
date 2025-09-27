@@ -29,3 +29,4 @@
 
       // for of loops ->> can be only used with arrays not with objects 
        // for in loops->> objects should be dealt with for of loop
+       // these are the twotypes of loops 
